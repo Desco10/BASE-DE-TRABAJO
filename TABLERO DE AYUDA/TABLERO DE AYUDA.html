@@ -1,0 +1,642 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imágenes en Tarjetas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .text-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .text-section h1, .text-section p {
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(33.333% - 40px); /* Ajusta el porcentaje para el tamaño de las tarjetas */
+            max-width: 300px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .card-content h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .card-content p {
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Título Principal</h1>
+            <p>Este es un párrafo de texto para introducir la página. Puedes añadir aquí cualquier información que desees.</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 1">
+                <div class="card-content">
+                    <h3>Imagen 1</h3>
+                    <p>Descripción de la imagen 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 2">
+                <div class="card-content">
+                    <h3>Imagen 2</h3>
+                    <p>Descripción de la imagen 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 3">
+                <div class="card-content">
+                    <h3>Imagen 3</h3>
+                    <p>Descripción de la imagen 3.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 4">
+                <div class="card-content">
+                    <h3>Imagen 4</h3>
+                    <p>Descripción de la imagen 4.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 5">
+                <div class="card-content">
+                    <h3>Imagen 5</h3>
+                    <p>Descripción de la imagen 5.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagen 6">
+                <div class="card-content">
+                    <h3>Imagen 6</h3>
+                    <p>Descripción de la imagen 6.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-section">
+            <p>Este es otro párrafo de texto para continuar la explicación o proporcionar información adicional.</p>
+        </div>
+    </div>
+</body>
+</html>
+background-color: rgb(182, 187, 185);
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    position:absolute;
+
+
+    <div class="card-container">
+        <div class="card">
+            <img src="C:\Users\ASUS\Desktop\imagenessalud\advil.jfif" alt="Imagen 1">
+            <div class="card-content">
+                <h3>ADVIL MAX </h3>
+                <p>TODO TIPÓ DE DOLOR</p>
+            </div>
+            <div class="textoinfo1">
+        <p>
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                float: inline-end;
+            }
+            .card {
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                width: calc(33.333% - 40px); /* Ajusta el porcentaje para el tamaño de las tarjetas */
+                max-width: 300px;
+            }
+            .card img {
+                width: 100%;
+                height: auto;
+            }
+            .card-content {
+                padding: 15px;
+                text-align: center;
+            }
+            .card-content h3 {
+                margin: 10px 0;
+                font-size: 1.2em;
+                color: #333;
+            }
+            .card-content  {
+                color: #666;}
+        
+    
+    .textoinfo1{
+        margin: 10px 0;
+                font-size: 1.2em;
+                color: #333;
+    }
+    .imglogo{
+        border-radius: 300px;
+        width: 40px;
+        float: left;
+        margin-left: 20px;
+        
+    }
+    .imgdos{
+        margin: 10%;
+        padding: 30%;
+        position: absolute;
+       
+    }
+
+
+    .container{
+        width: 50%;
+        display: flex;
+        max-width: 500px;
+    }
+    .card{
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    
+    }
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+    .card img{
+        width: 40%;
+        height: 50px;
+    }
+    .card .contenido {
+        padding: 15px;
+        text-align: center;
+    }
+    .card .contenido p {
+        line-height: 1.5;
+        color: #6a6a6a;
+    
+    }
+    .card .contenido h3{
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .card .contenido a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        color: #2fb4cc;
+        border: 1px solid #2fb4cc;
+        border-radius: 4px;
+        transition: all 400 ms ease;
+        }
+        .card .contenido a:hover{
+            background: #2fb4cc;
+            color: #fff;
+    
+        }
+        .card{
+            width: 325px;
+            background-color: rgb(235, 240, 238);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            margin: 20px;
+        }
+           .card  figure {
+            width: 100%;
+            height: auto;
+
+
+            header{
+                border-radius: 15px;
+                background: blue;
+                width: 100%;
+                padding: 00.2%;
+                clear: both;
+                display: table;
+                position: absolute;
+
+
+
+                nav{
+                    display: flex;
+                    text-justify: distribute;  
+                }
+                
+                nav ul li{
+                    list-style: none;
+                    margin-left: 75px;
+                    padding: 30px 0;
+                    float: left;
+                    float: end;
+                    
+                }
+                nav ul li a  {
+                    text-decoration: none;
+                    color: azure;
+                    font-weight: bold ;
+                    
+                }
+                    .imglogo{
+                        border-radius: 300px;
+                        width: 40px;
+                        float: left;
+                        margin-left: 20px;
+
+
+
+                        
+                        
+                        
+                        
+                        
+                        .container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            margin-top: 100px;
+                        }
+                        
+                        .card {
+                            width: 100%;
+                            max-width: 325px;
+                            background-color: #f0f0f0;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                            margin: 20px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .card img {
+                            width: 100%;
+                            height: 150px;
+                            object-fit: cover;
+                        }
+                        
+                        .card .content {
+                            padding: 10px;
+                            text-align: center;
+                        }
+                        
+                        .card .content p {
+                            line-height: 1.5;
+                            color: #eaedee;
+                        }
+                        
+                        .card .content h3 {
+                            font-weight: 400;
+                            margin-bottom: 15px;
+                        }
+                        
+                        .card .content a {
+                            text-decoration: none;
+                            display: inline-block;
+                            padding: 10px;
+                            margin-top: 10px;
+                            color: #2fb4cc;
+                            border: 1px solid #2fb4cc;
+                            border-radius: 4px;
+                            transition: all 400ms ease;
+                        }
+                        
+                        /* Responsive Design */
+                        @media (min-width: 768px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 767px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 480px) {
+                            .container {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .card {
+                                margin: 10px 0;
+                            }
+                        }        
+                        
+
+
+
+
+
+
+
+                        .container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            margin-top: 100px;
+                        }
+                        
+                        .card {
+                            width: 100%;
+                            max-width: 325px;
+                            background-color: #f0f0f0;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            box-shadow: 0px 2px 4px rgba (0, 0, 0, 0.2);
+                            margin: 20px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .card img {
+                            width: 100%;
+                            height: 200px;
+                            object-fit: cover;
+                        }
+                        
+                        .card .content {
+                            padding: 10px;
+                            text-align: center;
+                        }
+                        
+                        .card .content p {
+                            line-height: 1.5;
+                            color: #282931;
+                        }
+                        
+                        .card .content h3 {
+                            font-weight: 400;
+                            margin-bottom: 15px;
+                        }
+                        
+                        .card .content a {
+                            text-decoration: none;
+                            display: inline-block;
+                            padding: 10px;
+                            margin-top: 10px;
+                            color: #2fb4cc;
+                            border: 1px solid #2fb4cc;
+                            border-radius: 4px;
+                            transition: all 400ms ease;
+                        }
+                        
+                        
+                        /* Responsive  */
+                        @media (min-width: 768px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 767px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 480px) {
+                            .container {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .card {
+                                margin: 10px 0;
+                            }
+                        }
+                              
+
+                        * {
+                            padding: 0;
+                            margin: 0;
+                            box-sizing: border-box;
+                        }
+                        .container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            margin-top: 100px;
+                        }
+                        
+                        .card {
+                            width: 100%;
+                            max-width: 325px;
+                            background-color: #f0f0f0;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            box-shadow: 0px 2px 4px rgba (0, 0, 0, 0.2);
+                            margin: 20px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .card img {
+                            width: 100%;
+                            height: 150px;
+                            object-fit: cover;
+                        }
+                        
+                        .card .content {
+                            padding: 10px;
+                            text-align: center;
+                        }
+                        
+                        .card .content p {
+                            line-height: 1.5;
+                            color: #eaedee;
+                        }
+                        
+                        .card .content h3 {
+                            font-weight: 400;
+                            margin-bottom: 15px;
+                        }
+                        
+                        .card .content a {
+                            text-decoration: none;
+                            display: inline-block;
+                            padding: 10px;
+                            margin-top: 10px;
+                            color: #2fb4cc;
+                            border: 1px solid #2fb4cc;
+                            border-radius: 4px;
+                            transition: all 400ms ease;
+                        }
+                        
+                        /* Responsive Design */
+                        @media (min-width: 768px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 767px) {
+                            .container {
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+                        }
+                        
+                        @media (max-width: 480px) {
+                            .container {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .card {
+                                margin: 10px 0;
+                            }
+                        }        
+                        
+                        header {
+                            background: #3877d4;
+                            color: white;
+                            padding: 10px 0;
+                            text-align: center;
+                        }
+                        
+                        header .imglogo {
+                            width: 50px; 
+                            border-radius: 100px;
+                        }
+                        
+                        nav ul {
+                            list-style-type: none;
+                            padding: 0;
+                        }
+                        
+                        nav ul li {
+                            display: inline;
+                            margin: 0 10px;
+                        }
+                        
+                        nav ul li a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        footer {
+                            background: cornflowerblue;
+                            color: white;
+                            text-align: center;
+                            padding: 10px 0;
+                            position: fixed;
+                            width: 100%;
+                            bottom: 0;
+                        }
+
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: auto%;
+                        
+                    
+            PROYECTO ES 
+
+            
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 20px; /* Espacio alrededor del contenedor */
+                 padding:  10px;
+            }
+               
+                .card {
+                    width: 100%;
+                    max-width: calc(33.333% - 20px); /* 33.333% del contenedor menos 20px para los márgenes */
+                    background-color: #f0f0f0;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                    margin: 5px; /* Margen alrededor de cada tarjeta */
+                    display: flex;
+                    flex-direction: column;
+                }
+                .card:hover{
+                    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+                    transform: translateY(-3%);
+                    }
+            
+                    .card img {
+                        width: 100%;
+                        height: auto;
+                    }
+            
+            
+            
+            .card .content {
+                padding: 10px;
+                text-align: center;
+            }
+            
+            .card .content p {
+                margin: 10px 0;
+                font-size: 1.2em;
+                color: #333;
+            
+                
+            }
+            
+            .card-content h3 {
+                margin: 10px 0;
+                font-size: 1.2em;
+                color: #333;
+            }
+                    
+                    
